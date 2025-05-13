@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Soru Sonuçları</title>
+  <link rel="stylesheet" href="CSS/style.css">
+<script src="JS/script.js"></script>
+</head>
+<body>
+  <h2>📋 Soru Sonuçları</h2>
+
+  <button onclick="cevaplariGoster()"> Cevapları Göster</button>
+
+  <div id="sonucKutusu" style="margin-top:20px; font-weight:bold;"></div>
+
+  <script>
+    function cevaplariGoster() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const ad = urlParams.get("ad");
+      const yazili = urlParams.get("yazili");
+      const radio = urlParams.get("radio");
+
+      let sonuc = `Merhaba ${ad || "canımın içi"} 💙<br><br>`;
+
+      if (yazili === "icmp") {
+        sonuc += " Yazılı cevap doğru (ICMP)<br>";
+      } else {
+        sonuc += " Yazılı cevap yanlış. Doğru cevap: ICMP<br>";
+      }
+
+      if (radio === "443") {
+        sonuc += " HTTPS cevabı doğru (443)<br>";
+      } else {
+        sonuc += " HTTPS cevabı yanlış. Doğru cevap: 443<br>";
+      }
+
+      document.getElementById("sonucKutusu").innerHTML = sonuc;
+    }
+  </script>
+</body>
+</html>
