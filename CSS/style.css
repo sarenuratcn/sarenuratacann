@@ -1,0 +1,532 @@
+
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f2ff; /* yumuşak mavi arka plan */
+    }
+
+    .sekme-menu {
+      display: flex;
+      background-color: #d4ecff; /* açık mavi bar */
+      flex-wrap: wrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .sekme-menu a {
+      flex: 1;
+      padding: 14px;
+      background-color: #a3d5ff; /* bebek mavisi */
+      color: #003366;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-right: 1px solid #d4ecff;
+      transition: background-color 0.3s, color 0.3s;
+      font-weight: bold;
+    }
+
+    .sekme-menu a:hover {
+      background-color: #91cfff;
+      color: #001f3f;
+    }
+
+    .icerik {
+      padding: 30px;
+      color: #003366;
+    }
+     body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f2ff;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .sekme-menu {
+      display: flex;
+      background-color: #d4ecff; /* açık mavi bar */
+      flex-wrap: wrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .sekme-menu a {
+      flex: 1;
+      padding: 14px;
+      background-color: #a3d5ff; /* bebek mavisi */
+      color: #003366;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-right: 1px solid #d4ecff;
+      transition: background-color 0.3s, color 0.3s;
+      font-weight: bold;
+    }
+
+    .sekme-menu a:hover {
+      background-color: #91cfff;
+      color: #001f3f;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 60px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #003366;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 20px;
+      color: #003366;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-top: 8px;
+      resize: vertical;
+      font-size: 15px;
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background-color: #a3d5ff;
+      color: #003366;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #91cfff;
+    }
+
+    .tesekkur {
+      display: none;
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #d4ecff;
+      border-radius: 8px;
+      color: #003366;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+     body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f2ff; /* yumuşak mavi arka plan */
+    }
+
+    .sekme-menu {
+      display: flex;
+      background-color: #d4ecff; /* açık mavi bar */
+      flex-wrap: wrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .sekme-menu a {
+      flex: 1;
+      padding: 14px;
+      background-color: #a3d5ff; /* bebek mavisi */
+      color: #003366;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-right: 1px solid #d4ecff;
+      transition: background-color 0.3s, color 0.3s;
+      font-weight: bold;
+    }
+
+    .sekme-menu a:hover {
+      background-color: #91cfff;
+      color: #001f3f;
+    }
+
+    .icerik {
+      padding: 30px;
+      color: #003366;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f2ff; /* yumuşak mavi arka plan */
+    }
+
+    .sekme-menu {
+      display: flex;
+      background-color: #d4ecff; /* açık mavi bar */
+      flex-wrap: wrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .sekme-menu a {
+      flex: 1;
+      padding: 14px;
+      background-color: #a3d5ff; /* bebek mavisi */
+      color: #003366;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-right: 1px solid #d4ecff;
+      transition: background-color 0.3s, color 0.3s;
+      font-weight: bold;
+    }
+
+    .sekme-menu a:hover {
+      background-color: #91cfff;
+      color: #001f3f;
+    }
+
+    .icerik {
+      padding: 30px;
+      color: #003366;
+    }
+  
+     body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f2ff;
+    }
+
+    .sekme-menu {
+      display: flex;
+      background-color: #d4ecff;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .sekme-menu a {
+      flex: 1;
+      padding: 14px;
+      background-color: #a3d5ff;
+      color: #003366;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-right: 1px solid #d4ecff;
+      transition: background-color 0.3s, color 0.3s;
+      font-weight: bold;
+    }
+
+    .sekme-menu a:hover {
+      background-color: #91cfff;
+      color: #001f3f;
+    }
+
+    .icerik {
+      padding: 30px;
+      color: #003366;
+    }
+
+    .mesaj {
+      margin-top: 20px;
+      background-color: #d4ecff;
+      padding: 15px;
+      border-radius: 10px;
+      color: #003366;
+      font-weight: bold;
+      display: none;
+      width: fit-content;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f2ff; /* yumuşak mavi arka plan */
+    }
+
+    .sekme-menu {
+      display: flex;
+      background-color: #d4ecff; /* açık mavi bar */
+      flex-wrap: wrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .sekme-menu a {
+      flex: 1;
+      padding: 14px;
+      background-color: #a3d5ff; /* bebek mavisi */
+      color: #003366;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-right: 1px solid #d4ecff;
+      transition: background-color 0.3s, color 0.3s;
+      font-weight: bold;
+    }
+
+    .sekme-menu a:hover {
+      background-color: #91cfff;
+      color: #001f3f;
+    }
+
+    .icerik {
+      padding: 30px;
+      color: #003366;
+    }
+  
+     body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f2ff; /* yumuşak mavi arka plan */
+    }
+
+    .sekme-menu {
+      display: flex;
+      background-color: #d4ecff; /* açık mavi bar */
+      flex-wrap: wrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .sekme-menu a {
+      flex: 1;
+      padding: 14px;
+      background-color: #a3d5ff; /* bebek mavisi */
+      color: #003366;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-right: 1px solid #d4ecff;
+      transition: background-color 0.3s, color 0.3s;
+      font-weight: bold;
+    }
+
+    .sekme-menu a:hover {
+      background-color: #91cfff;
+      color: #001f3f;
+    }
+
+    .icerik {
+      padding: 30px;
+      color: #003366;
+    }
+
+     body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f2ff; /* yumuşak mavi arka plan */
+    }
+
+    .sekme-menu {
+      display: flex;
+      background-color: #d4ecff; /* açık mavi bar */
+      flex-wrap: wrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .sekme-menu a {
+      flex: 1;
+      padding: 14px;
+      background-color: #a3d5ff; /* bebek mavisi */
+      color: #003366;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-right: 1px solid #d4ecff;
+      transition: background-color 0.3s, color 0.3s;
+      font-weight: bold;
+    }
+
+    .sekme-menu a:hover {
+      background-color: #91cfff;
+      color: #001f3f;
+    }
+
+    .icerik {
+      padding: 30px;
+      color: #003366;
+    }
+     body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f2ff;
+      color: #003366;
+    }
+
+    .sekme-menu {
+      display: flex;
+      background-color: #d4ecff;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .sekme-menu a {
+      flex: 1;
+      padding: 14px;
+      background-color: #a3d5ff;
+      color: #003366;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-right: 1px solid #d4ecff;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .sekme-menu a:hover {
+      background-color: #91cfff;
+    }
+
+    .icerik {
+      padding: 30px;
+    }
+
+    .kutu {
+      background-color: #f0f8ff;
+      border-left: 5px solid #a3d5ff;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #003366;
+    }
+     body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f2ff;
+      color: #003366;
+    }
+
+    .sekme-menu {
+      display: flex;
+      background-color: #d4ecff;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .sekme-menu a {
+      flex: 1;
+      padding: 14px;
+      background-color: #a3d5ff;
+      color: #003366;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-right: 1px solid #d4ecff;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .sekme-menu a:hover {
+      background-color: #91cfff;
+    }
+
+    .icerik {
+      padding: 30px;
+    }
+
+    h2 {
+      color: #003366;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    .kutu {
+      background-color: #f0f8ff;
+      border-left: 5px solid #a3d5ff;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+    @media screen and (max-width: 768px) {
+  .sekme-menu {
+    flex-direction: column;
+  }
+
+  .sekme-menu a {
+    font-size: 14px;
+    padding: 10px;
+    border-right: none;
+    border-bottom: 1px solid #d4ecff;
+  }
+
+  .icerik {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      color: #003366;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    form {
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 15px;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+
+    .buton {
+      background-color: #4da6ff;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .buton:hover {
+      background-color: #3399ff;
+      transform: scale(1.05);
+    }
