@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Geri Bildirim Sonucu</title>
+</head>
+<body>
+  <h2>📝 Geri Bildiriminiz</h2>
+
+  <button onclick="geriSonucuGoster()">Cevabımı Göster</button>
+
+  <div id="geribildirimKutusu" style="margin-top:20px; font-weight:bold;"></div>
+
+  <script>
+    function geriSonucuGoster() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const ad = urlParams.get("ad");
+      const yorum = urlParams.get("yorum");
+
+      let mesaj = `Teşekkürler ${ad || "canımın içi"} 💙<br><br>`;
+      if (yorum) {
+        mesaj += `📢 Yorumunuz: "${yorum}"`;
+      } else {
+        mesaj += "⚠ Herhangi bir yorum yazılmamış.";
+      }
+
+      document.getElementById("geribildirimKutusu").innerHTML = mesaj;
+    }
+  </script>
+</body>
+</html>
